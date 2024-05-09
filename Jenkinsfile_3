@@ -26,6 +26,12 @@ pipeline {
             steps {
                 echo 'Releasing'
             }
-        }        
+        } 
+    stage('release2') {
+            steps {
+                echo 'Releasing and realising'
+            }
+        } 
+
     }
 }
